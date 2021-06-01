@@ -14,9 +14,9 @@ class BestBuy(Product):
     agent = {'User-Agent':'Mozilla/5.0'}
 
     def __init__(self, url, driver):
-        self.name = 'a'
+        self.name = ''
         self.price = 0
-        self.status = 'a'
+        self.status = ''
         self.url = url
         self.driver = driver
         self.opened = False
